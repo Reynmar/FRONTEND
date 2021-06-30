@@ -79,17 +79,20 @@ time + h1 {
 
 }
 
+.maintext0 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 20px 20px;
+}
+
 .maintext {
     
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     font-weight: 400;
     color: #FFFFFF;
-
-
-    /* Inside Auto Layout */
-
-    
     margin: 20px 20px;
 }
 
@@ -197,4 +200,9 @@ button {
     font-weight: normal;
     font-size: 15px;
     line-height: 120%;
+    
+
 }
+
+
+
