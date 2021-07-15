@@ -1,96 +1,151 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/0313e29df3.js" crossorigin="anonymous"></script>
-    <title>Портфолио</title>
-</head>
-<body>
+<html lang="ru">
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Михаил Пасичнюк - junior web developer</title>
+    </head>
     
-    <h1>Frontend портфолио</h1>
-    <h3>Михаил Пасичнюк</h3>
+    <body>
 
-    <div class="flex-container">
-     
-    <a href="/01-expanding-cards/index.html" target="_blank">    
+        <div class="card">
+            <div class="card__body">
+              <img src="./0A-Recipy-cards/preview.png" alt="" class="card__image">
+              <h2 class="card__title">Карточки с рецептами</h2>
+              <p class="card__description">Сделаны на флексе, положены в грид.</p>
+              <p class="card__tools">FLEX, GRID</p>
+            </div>
+            <div class="buttons">
+                <a href="./0A-Recipy-cards/index.html" target="_blank" class="card__btn">Live</a>
+                <a href="https://github.com/mpasichnyuk/mpasichnyuk.github.io/tree/gh-pages/tinkoff" target="_blank" class="card__btn">Code</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card__body">
+              <img src="./03-rotating_navigation/preview.png" alt="" class="card__image">
+              <h2 class="card__title">Тюлени прекрасны!</h2>
+              <p class="card__description">Они любят завалиться на бочок, прямо как это меню навигации.</p>
+              <p class="card__tools">Transform, Font Awesome</p>
+            </div>
+            <div class="buttons">
+                <a href="./03-rotating_navigation/index.html" target="_blank" class="card__btn">Live</a>
+                <a href="https://github.com/mpasichnyuk/mpasichnyuk.github.io/tree/gh-pages/tinkoff" target="_blank" class="card__btn">Code</a>
+            </div>
+        </div>
+        
+        
     <div class="card">
-        <div class="container">
-            <h4><b> <i class="fas fa-crop-alt"></i> Flex-карточки</b></h4>
-            <p>с анимацией по клику</p>
+        <div class="card__body">
+          <img src="./13-random-choice/preview.png" alt="" class="card__image">
+          <h2 class="card__title">Случайный выбиратор</h2>
+          <p class="card__description">Если не можешь выбрать, за тебя выберет Случайный Выбиратор!</p>
+          <p class="card__tools">HTML CSS JS</p>
+        </div>
+        <div class="buttons">
+            <a href="./13-random-choice/index.html" target="_blank" class="card__btn">Live</a>
+            <a href="https://github.com/mpasichnyuk/mpasichnyuk.github.io/tree/gh-pages/tinkoff" target="_blank" class="card__btn">Code</a>
         </div>
     </div>
-    </a>
     
-    <a href="/02-buttons-indicator/index.html" target="_blank">
     <div class="card">
-        <div class="container">
-            <h4><b>Кнопки  <i class="far fa-caret-square-left"></i> <i class="far fa-caret-square-right"></i></b></h4>
-            <p>с анимацией прогресса</p>
+        <div class="card__body">
+          <img src="./32-cheap-checkbox/preview.png" alt="" class="card__image">
+          <h2 class="card__title">Идеальный проект</h2>
+          <p class="card__description">Собери идеальный проект - быстрый, качественный, недорогой!</p>
+          <p class="card__tools">HTML CSS JS</p>
+        </div>
+        <div class="buttons">
+            <a href="./32-cheap-checkbox/index.html" target="_blank" class="card__btn">Live</a>
+            <a href="https://github.com/mpasichnyuk/mpasichnyuk.github.io/tree/gh-pages/tinkoff" target="_blank" class="card__btn">Code</a>
         </div>
     </div>
-    </a>
-
-    <a href="/03-rotating_navigation/index.html" target="_blank">
-    <div class="card">
-        <div class="container">
-            <h4><b><i class="fas fa-bars"></i> Кнопка меню</b></h4>
-            <p>с анимацией появления меню</p>
-        </div>
-    </div>
-    </a>
-
-    <a href="/04-search-widget/index.html" target="_blank">
-    <div class="card">
-        <div class="container">
-            <h4><b><i class="fas fa-search"></i> Поиск</b></h4>
-            <p>с анимацией открытия поля для ввода</p>
-        </div>
-    </div>
-    </a>
-
-    <a href="/13-random-choice/index.html" target="_blank">
-    <div class="card">
-        <div class="container">
-            <h4><b><i class="fas fa-random"></i> Случайный выборщик</b></h4>
-            <p>для тех, кто не может выбрать сам</p>
-        </div>
-    </div>
-    </a>
-
-    <a href="/32-cheap-checkbox/index.html" target="_blank">
-    <div class="card">
-        <div class="container">
-            <h4><b><i class="far fa-check-square"></i> Чекбоксы</b></h4>
-            <p>быстро, дешево, круто.</p>
-        </div>
-    </div>
-    </a>
-
-    <a href="/36-color-hover-board/index.html" target="_blank">
-    <div class="card">
-        <div class="container">
-            <h4><b><i class="fas fa-th"></i> Цветной ховерборд</b></h4>
-            <p>просто проведи мышкой</p>
-        </div>
-    </div>
-    </a>    
-
-    <a href="/49-todo-list/index.html" target="_blank">
-    <div class="card">
-        <div class="container">
-            <h4><b><i class="fas fa-clipboard-list"></i> Todos</b></h4>
-            <p>список задач</p>
-        </div>
-    </div>
-    </a>
-
-
-    </div>
-
     
-    <script src="script.js"></script>
+    <div class="card">
+        <div class="card__body">
+          <img src="./02-buttons-indicator/preview.png" alt="" class="card__image">
+          <h2 class="card__title">Кнопки с индикацией прогресса</h2>
+          <p class="card__description">Нажмите далее для установки мастера :)</p>
+          <p class="card__tools">FLEX, JS, Z-index </p>
+        </div>
+        <div class="buttons">
+            <a href="./02-buttons-indicator/index.html" target="_blank" class="card__btn">Live</a>
+            <a href="https://github.com/mpasichnyuk/mpasichnyuk.github.io/tree/gh-pages/tinkoff" target="_blank" class="card__btn">Code</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card__body">
+          <img src="./04-search-widget/preview.png" alt="" class="card__image">
+          <h2 class="card__title">Скрытый виджет</h2>
+          <p class="card__description">Нажми на иконку и откроется поле ввода</p>
+          <p class="card__tools">HTML CSS JS</p>
+        </div>
+        <div class="buttons">
+            <a href="./04-search-widget/index.html" target="_blank" class="card__btn">Live</a>
+            <a href="https://github.com/mpasichnyuk/mpasichnyuk.github.io/tree/gh-pages/tinkoff" target="_blank" class="card__btn">Code</a>
+        </div>
+    </div>
+
+
+    <div class="card">
+        <div class="card__body">
+          <img src="./01-expanding-cards/preview.png" alt="" class="card__image">
+          <h2 class="card__title">Анимированные карточки</h2>
+          <p class="card__description">При клике карточка расширяется на всю доступную длину.</p>
+          <p class="card__tools">FLEX, JS</p>
+        </div>
+        <div class="buttons">
+            <a href="./01-expanding-cards/index.html" target="_blank" class="card__btn">Live</a>
+            <a href="https://github.com/mpasichnyuk/mpasichnyuk.github.io/tree/gh-pages/tinkoff" target="_blank" class="card__btn">Code</a>
+        </div>
+    </div>
+      
+    
+
+
+    <div class="card">
+        <div class="card__body">
+          <img src="./36-color-hover-board/preview.png" alt="" class="card__image">
+          <h2 class="card__title">Цветные шашечки</h2>
+          <p class="card__description">Проведи мышкой над доской!</p>
+          <p class="card__tools">HTML CSS JS</p>
+        </div>
+        <div class="buttons">
+            <a href="./36-color-hover-board/index.html" target="_blank" class="card__btn">Live</a>
+            <a href="https://github.com/mpasichnyuk/mpasichnyuk.github.io/tree/gh-pages/tinkoff" target="_blank" class="card__btn">Code</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card__body">
+          <img src="./49-todo-list/preview.png" alt="" class="card__image">
+          <h2 class="card__title">Заметки</h2>
+          <p class="card__description">Динамически пополняемый список задач</p>
+          <p class="card__tools">HTML CSS JS</p>
+        </div>
+        <div class="buttons">
+            <a href="./49-todo-list/index.html" target="_blank" class="card__btn">Live</a>
+            <a href="https://github.com/mpasichnyuk/mpasichnyuk.github.io/tree/gh-pages/tinkoff" target="_blank" class="card__btn">Code</a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="card__body">
+          <img src="./tinkoff/Screenshot 2021-07-15 162217.png" alt="" class="card__image">
+          <h2 class="card__title">HTML-вёрстка</h2>
+          <p class="card__description">Веб-сторис для банка Тинькофф</p>
+          <p class="card__tools">HTML CSS</p>
+        </div>
+        <div class="buttons">
+            <a href="./tinkoff/tinkoff.html" target="_blank" class="card__btn">Live</a>
+            <a href="https://github.com/mpasichnyuk/mpasichnyuk.github.io/tree/gh-pages/tinkoff" target="_blank" class="card__btn">Code</a>
+        </div>
+    </div>
+    
+
 </body>
 </html>
