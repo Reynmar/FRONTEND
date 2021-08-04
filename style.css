@@ -82,7 +82,7 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
+
   transition: transform 200ms ease-in;
 }
 
@@ -119,16 +119,19 @@ hr {
   font-weight: bold;
   margin: 16px 16px;
   border: 2px solid #2596be;
-  color: #2596be;
+  background-color: #2596be;
+  /* color: #2596be; */
+  color: white;
   border-radius: 12px;
   transition: 0.2s ease;
-  background: transparent;
+  /* background: transparent; */
   cursor: pointer;
 }
 
 .card__btn:hover {
   color: white;
   background: #f31936;
+  border: 2px solid #f31936;
 }
 
 .buttons {
