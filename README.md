@@ -1,2 +1,3 @@
-# FRONTEND_LEARNING
-Various training projects on my journey to learn Frontend.
+# ФРОНТЕНТД ПОРТФОЛИО
+Учебные проекты по фронтенду и веб-дизайну с использованием HTML, CSS, JavaScript, React.
+Лайв-версию можно посмотреть в GitHub Pages.
