@@ -11,7 +11,7 @@ const Navigation = () => {
             </div>
             <ul className="nav-items">
                 <li className="nav-item">
-                    <NavLink to="/home" activeClassName="active-class">главная</NavLink>
+                    <NavLink to="/" activeClassName="active-class" exact>главная</NavLink>
                 </li>
                 <li className="nav-item">
                     <NavLink to="/about" activeClassName="active-class">обо мне</NavLink>
@@ -26,7 +26,7 @@ const Navigation = () => {
                     <NavLink to="/blog" activeClassName="active-class">блог</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/contact" activeClassName="active-class">контакты</NavLink>
+                    <NavLink to="/contacts" activeClassName="active-class">контакты</NavLink>
                 </li>
             </ul>
             <footer className="footer">
@@ -72,9 +72,12 @@ const NavigationStyled = styled.nav`
             display: block;
             a{
                 display: block;
-                padding: .2rem 0;
+                padding: .4rem 0;
                 position: relative;
                 transition: all 0.4s cubic-bezier(1,-0.2,.25,.95) ;
+                /* font-weight: 600; */
+                /* letter-spacing: 1px; */
+
                 &:hover{
                     cursor: pointer;
                     }

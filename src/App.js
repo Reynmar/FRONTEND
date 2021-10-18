@@ -1,7 +1,13 @@
 import { Home } from "@material-ui/icons";
+import { Switch, Route } from "react-router";
 import styled from "styled-components";
 import Sidebar from "./components/Sidebar";
 import Homepage from "./pages/HomePage";
+import Aboutpage from './pages/AboutPage';
+import BlogPage from './pages/BlogPage';
+import ContactsPage from './pages/ContactsPage';
+import PortfolioPage from './pages/PortfolioPage';
+import ResumePage from './pages/ResumePage';
 
 function App() {
   return (
@@ -14,8 +20,26 @@ function App() {
           <div className="line-3"></div>
           <div className="line-4"></div>
         </div>  
-
-        <Homepage />
+        <Switch>
+          <Route path="/" exact>
+            <Homepage />
+          </Route>
+          <Route path="/about" exact>
+            <Aboutpage />
+          </Route>
+          <Route path="/resume" exact>
+            <ResumePage/>
+          </Route>
+          <Route path="/portfolio" exact>
+            <PortfolioPage/>
+          </Route>
+          <Route path="/blog" exact>
+            <BlogPage/>
+          </Route>
+          <Route path="/contacts" exact>
+            <ContactsPage/>
+          </Route>
+        </Switch>
     </MainContentStyled>
   </div>
   );
