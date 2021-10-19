@@ -13,7 +13,7 @@ const Servicessection = () => {
     return (
         <InnerLayout>
             <ServiceSectionStyled>
-                <Title title={'Services'} span={'Services'}/>
+                <Title title={'навыки'} span={'навыки'}/>
                 <div className="services">
                     <ServiceCard 
                     image={webProgramming}

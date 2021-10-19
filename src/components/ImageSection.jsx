@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import resume from '../img/img (1).jpg';
+import resume from '../img/aboutme.jpg';
 import Buttonprimary from './ButtonPrimary';
 
 const Imagesection = () => {

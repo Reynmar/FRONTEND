@@ -4,7 +4,7 @@ import styled from "styled-components";
 import Sidebar from "./components/Sidebar";
 import Homepage from "./pages/HomePage";
 import Aboutpage from './pages/AboutPage';
-import BlogPage from './pages/BlogPage';
+import BlogPage from "./pages/BlogPage";
 import ContactsPage from './pages/ContactsPage';
 import PortfolioPage from './pages/PortfolioPage';
 import ResumePage from './pages/ResumePage';
