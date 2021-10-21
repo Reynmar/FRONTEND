@@ -51,6 +51,11 @@ const GlobalStyle = createGlobalStyle`
             
         }
     }
+    h6{
+        color: white;
+        font-size: 1.2rem;
+        padding-bottom: .6rem;
+    }
 `
 
 export default GlobalStyle
