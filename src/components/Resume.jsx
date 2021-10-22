@@ -52,7 +52,7 @@ const Resume = () => {
                             subtitle={'Экономический факультет'}
                             text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum veniam sit beatae possimus perferendis excepturi maiores earum, officia consectetur."}  
                             />
-                   
+            
                 </InnerLayout>
             
         </ResumeStyled>
