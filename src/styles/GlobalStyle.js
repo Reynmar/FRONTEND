@@ -36,6 +36,15 @@ const GlobalStyle = createGlobalStyle`
         color: var(--font-light-color);
     }
 
+    body::-webkit-scrollbar{
+        width: 4px;
+        background-color: #383838 ;
+    }
+    body::-webkit-scrollbar-thumb{
+        border-radius: 10px;
+        background-color: var(--primary-color) ;
+    }
+
     a{
         font-family: inherit;
         color: inherit;
@@ -55,6 +64,31 @@ const GlobalStyle = createGlobalStyle`
         color: white;
         font-size: 1.2rem;
         padding-bottom: .6rem;
+    }
+
+    .hamburger-menu{
+        position: absolute;
+        right: 10%;
+        top: 5%;
+        
+        button::active{
+            background-color: red;
+        }
+        svg{
+            color: var(--primary-color);
+            font-size: 3rem;
+        }
+
+    }
+    @media screen and (max-width: 1000px){
+        
+        }
+    .p-particles-js{
+        z-index: -1;
+    }
+
+    .nav-toggle{
+        transform: translateX(100%);
     }
 `
 

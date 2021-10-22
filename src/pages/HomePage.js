@@ -16,13 +16,13 @@ const Homepage = () => {
                 <h1>Hi I am <span>Mikhail Pasichniuk</span></h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quos atque ratione quis architecto rerum id tenetur repudiandae distinctio quaerat.</p>
                 <div className="icons">
-                    <a href="https://www.youtube.com" target="_blank" className="icon i-facebook">
+                    <a href="https://www.youtube.com" target="_blank" rel="noreferrer" className="icon i-facebook">
                         <FacebookIcon/>
                     </a>
-                    <a href="https://www.youtube.com" target="_blank" className="icon i-github">
+                    <a href="https://www.youtube.com" target="_blank" rel="noreferrer" className="icon i-github">
                         <GithubIcon/>
                     </a>
-                    <a href="https://www.youtube.com" target="_blank" className="icon i-youtube">
+                    <a href="https://www.youtube.com" target="_blank" rel="noreferrer" className="icon i-youtube">
                         <YoutubeIcon/>
                     </a>
                 </div>

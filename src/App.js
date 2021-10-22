@@ -8,11 +8,29 @@ import BlogPage from "./pages/BlogPage";
 import ContactsPage from './pages/ContactsPage';
 import PortfolioPage from './pages/PortfolioPage';
 import ResumePage from './pages/ResumePage';
+import MenuIcon from '@mui/icons-material/Menu';
+import IconButton from '@mui/material/IconButton';
+import {useState} from 'react';
 
 function App() {
+  const [navToggle, setNavToggle] = useState(false);
+
+  const testFunc = () => {
+    console.log('test worked!')
+  }
+
   return (
   <div className="App">
-    <Sidebar />
+
+    <Sidebar navToggle={navToggle}/>
+
+    <div className="hamburger-menu">
+      
+      <IconButton onClick={ () => setNavToggle(!navToggle)}>
+        <MenuIcon/>
+      </IconButton>
+    </div>
+
     <MainContentStyled className="main-content">
       {/* <div className="lines">
           <div className="line-1"></div>
@@ -20,6 +38,7 @@ function App() {
           <div className="line-3"></div>
           <div className="line-4"></div>
         </div>   */}
+
         <Switch>
           <Route path="/" exact>
             <Homepage />
@@ -50,6 +69,9 @@ const MainContentStyled = styled.div`
   margin-left: 16.3rem;
   min-height: 100vh;
   /* background-color: black; */
+  @media screen and (max-width: 1000px){
+        margin-left: 0;
+    }
 
   .lines{
     position: absolute;
@@ -67,8 +89,5 @@ const MainContentStyled = styled.div`
 
 `;
 
-// const AppStyled = styled.div`
-//   background-color: blueviolet;
-// `;
 
 export default App;

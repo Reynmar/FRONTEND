@@ -119,9 +119,9 @@ const MenuItemStyled = styled.div`
                 &::before{
                     height: 27vh;
                     width: calc(100% - 30px);
-                    background-color: var(--border-color);
+                    background-color: var(--primary-color);
                     /* background-color: red; */
-                    opacity: .8;
+                    opacity: .4;
                     transform-origin: center;
                     transform: scale(1);
                     transition: all .2s ease-in-out;
