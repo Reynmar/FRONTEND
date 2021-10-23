@@ -68,6 +68,7 @@ const GlobalStyle = createGlobalStyle`
 
     .hamburger-menu{
         position: absolute;
+        z-index: 2;
         right: 10%;
         top: 5%;
         
@@ -78,17 +79,17 @@ const GlobalStyle = createGlobalStyle`
             color: var(--primary-color);
             font-size: 3rem;
         }
-
-    }
-    @media screen and (max-width: 1000px){
-        
+        @media screen and (min-width: 1000px){
+            display: none;
         }
+    }
+        
     .p-particles-js{
         z-index: -1;
     }
 
     .nav-toggle{
-        transform: translateX(100%);
+        transform: translateX(0);
     }
 `
 

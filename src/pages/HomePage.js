@@ -9,9 +9,11 @@ import YoutubeIcon from '@material-ui/icons/YouTube'
 const Homepage = () => {
     return (
         <HomePageStyled>
+
             <div className="p-particles-js">
                 <Particle/>
             </div>
+
             <div className="typography">
                 <h1>Hi I am <span>Mikhail Pasichniuk</span></h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quos atque ratione quis architecto rerum id tenetur repudiandae distinctio quaerat.</p>
@@ -37,9 +39,11 @@ const HomePageStyled = styled.header`
     position: relative;
 
     .p-particles-js{
-        position: absolute;
+        width: 100%;
+        z-index: -2;
+        /* position: absolute;
         top: 0;
-        left: 0;
+        left: 0; */
     }
 
     .typography{

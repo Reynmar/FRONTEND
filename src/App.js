@@ -13,20 +13,18 @@ import IconButton from '@mui/material/IconButton';
 import {useState} from 'react';
 
 function App() {
-  const [navToggle, setNavToggle] = useState(false);
 
-  const testFunc = () => {
-    console.log('test worked!')
-  }
+  const [navShow, setNavShow] = useState(true);
+
+  
 
   return (
   <div className="App">
 
-    <Sidebar navToggle={navToggle}/>
+    <Sidebar navShow={navShow}/>
 
     <div className="hamburger-menu">
-      
-      <IconButton onClick={ () => setNavToggle(!navToggle)}>
+      <IconButton onClick={ () => setNavShow(!navShow)}>
         <MenuIcon/>
       </IconButton>
     </div>
@@ -71,6 +69,9 @@ const MainContentStyled = styled.div`
   /* background-color: black; */
   @media screen and (max-width: 1000px){
         margin-left: 0;
+        .hamburger-menu{
+          display: none;
+        }
     }
 
   .lines{
@@ -86,6 +87,7 @@ const MainContentStyled = styled.div`
       background-color: var(--border-color);
     }
   }
+  
 
 `;
 
