@@ -66,13 +66,14 @@ const NavigationStyled = styled.nav`
 
         .active-class{
             background-color: var(--primary-color);
+            color: white;
         }
 
         li{
             display: block;
             a{
                 display: block;
-                padding: .4rem 0;
+                padding: .6rem 0;
                 position: relative;
                 transition: all 0.4s cubic-bezier(1,-0.2,.25,.95) ;
                 /* font-weight: 600; */

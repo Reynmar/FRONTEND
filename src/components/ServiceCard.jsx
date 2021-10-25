@@ -16,7 +16,7 @@ const ServiceCard = ({image, title, paragraph}) => {
 const ServiceCardStyled = styled.div`
         /* background-color: var(--background-dark-color); */
     background-color: var(--background-dark-grey);
-    margin: 0 1rem;
+    /* margin: 0 1rem; */
     border-left: 4px solid var(--border-color);
     transition: all .4s ease-in-out;
     &:hover{

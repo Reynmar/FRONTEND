@@ -10,11 +10,12 @@ import PortfolioPage from './pages/PortfolioPage';
 import ResumePage from './pages/ResumePage';
 import MenuIcon from '@mui/icons-material/Menu';
 import IconButton from '@mui/material/IconButton';
+import CancelIcon from '@mui/icons-material/Cancel';
 import {useState} from 'react';
 
 function App() {
 
-  const [navShow, setNavShow] = useState(true);
+  const [navShow, setNavShow] = useState(false);
 
   
 
@@ -25,7 +26,7 @@ function App() {
 
     <div className="hamburger-menu">
       <IconButton onClick={ () => setNavShow(!navShow)}>
-        <MenuIcon/>
+        {navShow ? <CancelIcon/>  : <MenuIcon/>}
       </IconButton>
     </div>
 
@@ -67,11 +68,10 @@ const MainContentStyled = styled.div`
   margin-left: 16.3rem;
   min-height: 100vh;
   /* background-color: black; */
-  @media screen and (max-width: 1000px){
+
+  @media screen and (max-width: 1080px){
         margin-left: 0;
-        .hamburger-menu{
-          display: none;
-        }
+       
     }
 
   .lines{

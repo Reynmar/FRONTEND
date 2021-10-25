@@ -5,6 +5,7 @@ import Title from '../components/Title';
 import Imagesection from '../components/ImageSection';
 import Servicessection from '../components/ServicesSection';
 import ReviewsSection from '../components/ReviewsSection';
+import Particle from '../components/particles';
 
 const Aboutpage = () => {
     return (
@@ -19,6 +20,8 @@ const Aboutpage = () => {
     );
 }
 
-const AboutStyled = styled.section``;
+const AboutStyled = styled.section`
+    
+`;
 
 export default Aboutpage;

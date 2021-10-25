@@ -17,11 +17,10 @@ const TitleSmallStyled = styled.div`
     svg{
         font-size: 2rem;
     }
-    p{
-        padding-right: 1rem;
-            }
+    
     h4{
         color: white;
+        padding-left: 1rem;
         font-size: 2rem;
     }
 

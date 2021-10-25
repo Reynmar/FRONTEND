@@ -16,7 +16,9 @@ const ProgressBar = ({title, width, text}) => {
 }
 
 const ProgressBarStyled = styled.div`
-    margin: 1rem;
+    margin: .5rem;
+    padding: .5rem;
+    width: 100%;
     h6{
             text-transform: uppercase;
         }
@@ -24,7 +26,7 @@ const ProgressBarStyled = styled.div`
         display: flex;
         align-items: center;
         p{
-            padding-right: 1rem;
+            /* padding-right: 1rem; */
         }
         .progress{
             position: relative;

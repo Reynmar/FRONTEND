@@ -9,12 +9,12 @@ const ReviewsSection = () => {
         
             <ReviewsStyled>
 
-                <Title title={"принципы"} span={"принципы"} />
+                <Title title={"reviews"} span={"reviews"} />
 
                 <InnerLayout>
                     <div className="reviews">                        
-                        <ReviewItem text={"Лучше сделать полную рабочую версию брутфорсом, чем ковырять одну фичу весь день."}/>
-                        <ReviewItem text={"Вернемся к этому, когда у нас будет готовый MVP."}/>
+                        <ReviewItem text={"Эти карточки здесь просто чтобы круто выглядело."}/>
+                        <ReviewItem text={"На реальном сайте это могут быть, например, отзывы посетителей."}/>
                     </div>
                 </InnerLayout>
             </ReviewsStyled>
@@ -25,6 +25,11 @@ const ReviewsSection = () => {
 const ReviewsStyled = styled.section`
     .reviews{
         display: flex;
+        @media screen and (max-width: 1080px){
+            flex-direction: column;
+            gap: 2rem;
+            width: 100%;
+        }
     }
 `;
 

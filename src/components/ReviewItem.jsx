@@ -12,13 +12,16 @@ const ReviewItem = ({text}) => {
 const ReviewItemStyled = styled.div`
     /* height: 15vh; */
     width: 50%;
+    @media screen and (max-width:1080px){
+        width: 100%;
+    }
+
     padding: 2rem 1rem;
-   
     border-left: 6px solid var(--border-color);
     background-color: var(--background-dark-grey);
     position: relative;
     &:not(:first-child){
-        margin-left: 1rem;
+        /* margin-left: 1rem; */
     }
     &::after{
         content: "";

@@ -37,6 +37,23 @@ const TitleStyled = styled.div`
             z-index: -1;
         }
     }
+    @media screen and (min-width: 1080px){
+            h2{
+                font-size: 2;
+                &::before{
+            content: "";
+            position: absolute;
+            bottom: 0;
+            width: 2rem;
+            height: .33rem;
+            background-color: var(--primary-color);
+            border-radius: 15px;
+        }
+            }
+            span{
+                font-size: .5rem;
+            }
+        }
 `;
 
 export default Title;

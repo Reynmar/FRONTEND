@@ -40,6 +40,12 @@ const Menu = ({menuItems}) => {
 const MenuItemStyled = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    @media screen and (max-width: 1080px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media screen and (max-width: 720px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
     gap: 2rem;
 
     .grid-item{

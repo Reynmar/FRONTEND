@@ -38,7 +38,7 @@ const Resume = () => {
                             />
                         <ResumeItem
                             year={"2010"}
-                            title={'Студия видеопроизводства LEONARUS'}
+                            title={'Студия LEONARUS'}
                             subtitle={'Оператор-монтажёр'}
                             text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui cum veniam sit beatae possimus perferendis excepturi maiores earum, officia consectetur."}  
                             />

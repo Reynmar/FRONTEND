@@ -32,15 +32,6 @@ const ResumeItemStyled = styled.div`
             height: .7rem;
             background-color: white;
         }
-        /* &::after{
-            content: "";
-            position: absolute;
-            left: -14px;
-            top: 20px;
-            width: 2px;
-            height: 100%;
-            background-color: var(--border-color);
-        } */
         p{
             display: inline-block;
         }
@@ -65,6 +56,17 @@ const ResumeItemStyled = styled.div`
         h6{
             padding-bottom: 1rem;
             
+        }
+    }
+    
+    @media screen and (max-width: 1080px){
+        flex-direction: column;
+
+        .right-resume-content{
+        margin-left: 1rem;
+        }
+        .left-resume-content{
+        width: 100%;
         }
     }
 

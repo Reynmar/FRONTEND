@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import resume from '../img/aboutme.jpg';
+import resume from '../img/aboutme_cr.jpg';
 import Buttonprimary from './ButtonPrimary';
 
 const Imagesection = () => {
@@ -11,25 +11,25 @@ const Imagesection = () => {
             </div>
             <div className="right-content">
                 
-                <h4>Mikhail <span> Pasichniuk</span></h4>
+                <h4>Михаил <span> Пасичнюк</span></h4>
                 
                 <p className="paragraph">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora accusantium quos rem unde. Recusandae sequi id natus laudantium corrupti. 
+                    Frontend React-разработчик и программист JavaScript с планами на Фулл-стек. Опыт работы в медиа и дизайне.
                 </p>
                 <div className="about-info">
                     <div className="info-title">
-                        <p>Occupation </p>
-                        <p>Age</p>
-                        <p>Location</p>
-                        <p>Languages</p>
-                        <p>Work</p>
+                        <p>направление </p>
+                        <p>возраст</p>
+                        <p>локация</p>
+                        <p>языки</p>
+                        <p>работа</p>
                     </div>
                     <div className="info">
-                        <p>: Frontend Developer</p>
+                        <p>: Фронтенд-разработчик</p>
                         <p>: 35</p>
-                        <p>: Moscow, Russia</p>
-                        <p>: English C1, Russian, Ukrainian, French</p>
-                        <p>: Freelance, Full-time, Part-time</p>
+                        <p>: Москва</p>
+                        <p>: English C1 / RU / UA / French A1</p>
+                        <p>: Freelance / Full-time / Part-time</p>
                     </div>
                 </div>
                 <Buttonprimary title={'Скачать резюме'}/>
@@ -42,13 +42,18 @@ const ImageSectionStyled = styled.div`
     display: flex;
     margin-top: 5rem;
     
+    
     .left-content{
-        width: 100%;
-        
+        width: 30%;
+        margin-right: 2rem;
+
         img{
-            width: 90%;
-            height: 100%;
+            width: 100%;
+            
             object-fit: cover;
+            box-shadow: 0px 0px 10px 5px var(--primary-color);
+            border-radius:5%;
+            
         }
     }
 
@@ -68,7 +73,7 @@ const ImageSectionStyled = styled.div`
             display: flex;
             padding-bottom: 1rem;
             .info-title{
-                padding-right: 3rem;
+                padding-right: 2rem;
                 font-weight: 600;
                 text-transform: uppercase;
             }
@@ -76,6 +81,21 @@ const ImageSectionStyled = styled.div`
                 p{
                     padding: .3rem 0;
                 }
+            }
+        }
+    }
+
+    @media screen and (max-width: 1080px){
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .left-content{
+            margin-bottom: 2rem;
+            display: flex;
+            justify-content: center;
+        align-items: center;
+            img{
+                height: 30%;
             }
         }
     }

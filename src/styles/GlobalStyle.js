@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
         --background-dark-grey: #191d2b;
         --border-color: #2e344e;
         --background-light-color: #f1f1f1;
-        --background-light-color-2: rgba(3,127,255,.3)
+        --background-light-color-2: rgba(3,127,255,.3);
         --white-color: #ffffff;
         --font-light-color: #a4acc4;
         --font-dark-color: #313131;
@@ -26,7 +26,7 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
         list-style: none;
         text-decoration: none;
-        font-size: 1.1rem;
+        /* font-size: 1.1rem; */
         font-family: 'Source Sans Pro', sans-serif;
         
     }
@@ -67,10 +67,10 @@ const GlobalStyle = createGlobalStyle`
     }
 
     .hamburger-menu{
-        position: absolute;
+        position: fixed;
         z-index: 2;
-        right: 10%;
-        top: 5%;
+        right: 2rem;
+        top: 2rem;
         
         button::active{
             background-color: red;
@@ -79,7 +79,7 @@ const GlobalStyle = createGlobalStyle`
             color: var(--primary-color);
             font-size: 3rem;
         }
-        @media screen and (min-width: 1000px){
+        @media screen and (min-width: 1080px){
             display: none;
         }
     }

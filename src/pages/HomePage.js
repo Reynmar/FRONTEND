@@ -15,8 +15,9 @@ const Homepage = () => {
             </div>
 
             <div className="typography">
-                <h1>Hi I am <span>Mikhail Pasichniuk</span></h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quos atque ratione quis architecto rerum id tenetur repudiandae distinctio quaerat.</p>
+                <h1>Михаил Пасичнюк <span> портфолио</span></h1>
+                <p>Привет! Я - Михаил Пасичнюк, Junior Frontend React-разработчик и программист JavaScript с опытом работы в медиа и дизайне. </p>
+                <p> На этом сайте (кстати, он сделан на Реакте)  вы найдете примере моих проектов по веб-разработке и программированию.</p>
                 <div className="icons">
                     <a href="https://www.youtube.com" target="_blank" rel="noreferrer" className="icon i-facebook">
                         <FacebookIcon/>
@@ -37,6 +38,10 @@ const HomePageStyled = styled.header`
     width: 100%;
     height: 100vh;
     position: relative;
+
+    p{
+        margin-top: 1rem;
+    }
 
     .p-particles-js{
         width: 100%;
