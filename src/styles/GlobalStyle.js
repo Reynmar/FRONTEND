@@ -40,6 +40,7 @@ const GlobalStyle = createGlobalStyle`
         width: 4px;
         background-color: #383838 ;
     }
+    
     body::-webkit-scrollbar-thumb{
         border-radius: 10px;
         background-color: var(--primary-color) ;

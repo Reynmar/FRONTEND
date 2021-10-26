@@ -12,8 +12,11 @@ const TitleSmall = ({icon, title}) => {
 }
 
 const TitleSmallStyled = styled.div`
+
+    
     display: flex;
     align-items: center;
+    
     svg{
         font-size: 2rem;
     }

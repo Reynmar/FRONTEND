@@ -11,20 +11,21 @@ const Menu = ({menuItems}) => {
                 (item)=>{
                     return <div className="grid-item" key={item.id} >
                         <div className="portfolio-content">
+
                             <div className="portfolio-image">
                                 <img src={item.image} alt="" />
-                            <ul>
-                                <li>
-                                    <a href={item.link1} target="_blank" rel="noreferrer">
-                                        <GitHub/>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href={item.link2} target="_blank" rel="noreferrer">
-                                        <ScreenShareIcon/>
-                                    </a>
-                                </li>
-                            </ul>
+                                <ul>
+                                    <li>
+                                        <a href={item.link1} target="_blank" rel="noreferrer">
+                                            <GitHub/>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href={item.link2} target="_blank" rel="noreferrer">
+                                            <ScreenShareIcon/>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                             <h6>{item.title}</h6>
                             <p>{item.text}</p>
@@ -40,12 +41,14 @@ const Menu = ({menuItems}) => {
 const MenuItemStyled = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    @media screen and (max-width: 1080px) {
+
+    @media screen and (max-width: 1280px) {
         grid-template-columns: repeat(2, 1fr);
     }
     @media screen and (max-width: 720px) {
         grid-template-columns: repeat(1, 1fr);
     }
+
     gap: 2rem;
 
     .grid-item{
@@ -56,26 +59,20 @@ const MenuItemStyled = styled.div`
                 width: 100%;
                 height: 30vh;
                 object-fit: cover;
+                border-radius: 7%;
+                border: 8px solid var(--border-color);
+                /* filter: blur(2px); */
+               
             }
-           
+        
             h6{
                 font-size: 1.2rem;
                 margin-top: .5rem;
             }
             .portfolio-image{
-                a{
-                    opacity: 0%;
-                }
-                ul{
-                display: none;
-                opacity: 0%;
-                scale: 0;
-                transition: all .6s ease-in-out;
-                li{
-                    transform: scale(0);
-                }
-                }
-                &::before{
+               
+                
+                /* &::before{
                     content: "";
                     position: absolute;
                     left: 15px;
@@ -84,20 +81,23 @@ const MenuItemStyled = styled.div`
                     height: 27vh;
                     width: 0;
                     transition: all .4s ease-in-out;
-                }
+                } */
             }
-            .portfolio-image:hover{
+            .portfolio-image{
                 a{
-                    opacity: 100%;
+                    padding: .3rem 1.2rem;
                     transition: all .6s ease-in-out;
                 }
                 ul{
                     display: block;
                     position: absolute;
                     left: 50%;
-                    top: 30%;
-                    
-                    transform: translate(-50%, -30%);
+                    top: 60%;
+                    transform: translate(-50%, -40%);
+
+                    @media screen and (max-width: 1080px){
+                        transform: translate(-50%, -70%);
+                    }
                     
                     display: flex;
                     opacity: 100%;
@@ -105,7 +105,7 @@ const MenuItemStyled = styled.div`
                     justify-content: center;
                     
                     svg{
-                        font-size: 3rem;
+                        font-size: 2rem;
                         color: white;
                     }                      
                     li{
@@ -113,11 +113,18 @@ const MenuItemStyled = styled.div`
                         display: flex;
                         align-items: center;
                         justify-content: center;
-                        padding: .5rem;
+                        padding: .5rem ;
                         margin: 1rem;
-                        border-radius: 10%;
-                        transition: all .6s ease-in-out;
-                        transform: scale(1);
+                        border-radius: 10px;
+                        transition: all .3s ease-in-out;
+                        
+                        &:first-child{
+                            background-color: red;
+                        }
+                        &:hover{
+                            transform: translateY(-10px);
+                            box-shadow: 5px 10px 6px -1px var(--border-color);
+                        }
 
                     }
                     

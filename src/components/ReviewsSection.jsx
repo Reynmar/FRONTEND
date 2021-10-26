@@ -3,18 +3,21 @@ import styled from 'styled-components';
 import { InnerLayout } from '../styles/Layouts';
 import Title from './Title'
 import ReviewItem from './ReviewItem';
+import TitleSmall from './TitleSmall';
+import BuildIcon from '@mui/icons-material/Build';
+import ChatIcon from '@mui/icons-material/Chat';
 
 const ReviewsSection = () => {
     return (
         
             <ReviewsStyled>
 
-                <Title title={"reviews"} span={"reviews"} />
-
+                
                 <InnerLayout>
+                <TitleSmall icon={<ChatIcon/>} title={'Отзывы'} />
                     <div className="reviews">                        
-                        <ReviewItem text={"Эти карточки здесь просто чтобы круто выглядело."}/>
-                        <ReviewItem text={"На реальном сайте это могут быть, например, отзывы посетителей."}/>
+                        <ReviewItem text={"Пока здесь нет отзывов, так что эти карточки здесь просто чтобы круто выглядело."}/>
+                        <ReviewItem text={"Но когда здесь появятся отзывы, они будут ааапупенными!"}/>
                     </div>
                 </InnerLayout>
             </ReviewsStyled>
@@ -23,11 +26,17 @@ const ReviewsSection = () => {
 }
 
 const ReviewsStyled = styled.section`
+
+    margin-top: .4rem;
+
     .reviews{
+        margin-top: 2rem;
         display: flex;
+        gap: 2rem;
+
         @media screen and (max-width: 1080px){
             flex-direction: column;
-            gap: 2rem;
+            
             width: 100%;
         }
     }

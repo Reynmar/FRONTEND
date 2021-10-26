@@ -6,14 +6,15 @@ import Title from './Title';
 import webProgramming from "../icons/web-programming.png"
 import animation from "../icons/animation.png"
 import react from "../icons/startup.png"
-
-
+import TitleSmall from './TitleSmall';
+import BuildIcon from '@mui/icons-material/Build';
+import PublicIcon from '@mui/icons-material/Public';
 
 const Servicessection = () => {
     return (
-        <InnerLayout>
+        
             <ServiceSectionStyled>
-                <Title title={'навыки'} span={'навыки'}/>
+            <TitleSmall icon={<PublicIcon/>} title={'Сфера деятельности'} />
                 <div className="services">
                     <ServiceCard 
                     image={webProgramming}
@@ -32,31 +33,25 @@ const Servicessection = () => {
                     />
                 </div>
             </ServiceSectionStyled>
-        </InnerLayout>
+        
     );
 }
 
 const ServiceSectionStyled = styled.section`
+
+    margin-top: 3rem;
+    
     .services{
-        margin-top: 5rem;
+        margin-top: 2rem;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         gap: 1rem;
     }
     
     @media screen and (max-width: 1080px){
-        
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        
         .services{
-            
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
             gap: 1rem;
         }
     }

@@ -32,7 +32,8 @@ const Imagesection = () => {
                         <p>: Freelance / Full-time / Part-time</p>
                     </div>
                 </div>
-                <Buttonprimary title={'Скачать резюме'}/>
+                {/* <Buttonprimary title={'Скачать резюме'}/>
+                <a href="http://"></a> */}
             </div>
         </ImageSectionStyled>
     );
@@ -41,15 +42,14 @@ const Imagesection = () => {
 const ImageSectionStyled = styled.div`
     display: flex;
     margin-top: 5rem;
-    
+    margin-left: 2rem;
     
     .left-content{
-        width: 30%;
+        flex: 0 0 30%;
         margin-right: 2rem;
 
         img{
-            width: 100%;
-            
+            width: 80%;
             object-fit: cover;
             box-shadow: 0px 0px 10px 5px var(--primary-color);
             border-radius:5%;
@@ -58,6 +58,8 @@ const ImageSectionStyled = styled.div`
     }
 
     .right-content{
+        flex: 0 1 50%;
+
         h4{
             font-size: 2rem;
             color: white;
@@ -93,9 +95,9 @@ const ImageSectionStyled = styled.div`
             margin-bottom: 2rem;
             display: flex;
             justify-content: center;
-        align-items: center;
+            align-items: center;
             img{
-                height: 30%;
+                width: 50%;
             }
         }
     }

@@ -3,13 +3,15 @@ import {MainLayout, InnerLayout} from '../styles/Layouts'
 import Title from './Title'
 import styled from 'styled-components';
 import ProgressBar from './ProgressBar';
+import TitleSmall from './TitleSmall';
+import BuildIcon from '@mui/icons-material/Build';
 
 const Skills = () => {
     return (
         <SkillsStyled>
             
-                <Title title={'SKILLS'} span={'навыки'}  />
-                <InnerLayout>
+            <TitleSmall icon={<BuildIcon/>} title={'Навыки'} />
+                <>
                     <div className="skills">
                         <ProgressBar
                             title={'HTML5'}
@@ -42,13 +44,16 @@ const Skills = () => {
                             text={'95%'}
                         />
                     </div>
-                </InnerLayout>
+                </>
             
         </SkillsStyled>
     );
 }
 
 const SkillsStyled = styled.section`
+
+    margin-top: 4rem;
+
     .skills{
         display: grid;
         grid-template-columns: repeat(2, 1fr);

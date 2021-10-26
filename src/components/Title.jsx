@@ -37,9 +37,9 @@ const TitleStyled = styled.div`
             z-index: -1;
         }
     }
-    @media screen and (min-width: 1080px){
+    @media screen and (max-width: 1080px){
             h2{
-                font-size: 2;
+                font-size: 2rem;
                 &::before{
             content: "";
             position: absolute;
@@ -48,12 +48,12 @@ const TitleStyled = styled.div`
             height: .33rem;
             background-color: var(--primary-color);
             border-radius: 15px;
-        }
+                }
+                span{
+                    font-size: .5rem;
+                }
             }
-            span{
-                font-size: .5rem;
-            }
-        }
+    }
 `;
 
 export default Title;

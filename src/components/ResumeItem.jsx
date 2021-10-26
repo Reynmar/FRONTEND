@@ -20,8 +20,9 @@ const ResumeItem = ({year,title,subtitle,text}) => {
 const ResumeItemStyled = styled.div`
     display: flex;
     padding: 1rem;
+    justify-content: left;
     .left-resume-content{
-        width: 20%;
+        flex: 0 1 20%;
         position: relative;
         &::before{
             content: "";
@@ -39,6 +40,7 @@ const ResumeItemStyled = styled.div`
     .right-resume-content{
         margin-left: 5rem;
         position: relative;
+        flex: 0 1 80%;
         &::before{
             content: "";
             position: absolute;

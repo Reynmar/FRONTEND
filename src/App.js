@@ -12,6 +12,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import IconButton from '@mui/material/IconButton';
 import CancelIcon from '@mui/icons-material/Cancel';
 import {useState} from 'react';
+import Contacts from './pages/Contacts'
 
 function App() {
 
@@ -55,7 +56,7 @@ function App() {
             <BlogPage/>
           </Route>
           <Route path="/contacts" exact>
-            <ContactsPage/>
+            <Contacts/>
           </Route>
         </Switch>
     </MainContentStyled>

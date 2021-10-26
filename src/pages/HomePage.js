@@ -6,6 +6,7 @@ import GithubIcon from '@material-ui/icons/GitHub'
 import YoutubeIcon from '@material-ui/icons/YouTube'
 
 
+
 const Homepage = () => {
     return (
         <HomePageStyled>
@@ -17,18 +18,19 @@ const Homepage = () => {
             <div className="typography">
                 <h1>Михаил Пасичнюк <span> портфолио</span></h1>
                 <p>Привет! Я - Михаил Пасичнюк, Junior Frontend React-разработчик и программист JavaScript с опытом работы в медиа и дизайне. </p>
-                <p> На этом сайте (кстати, он сделан на Реакте)  вы найдете примере моих проектов по веб-разработке и программированию.</p>
-                <div className="icons">
+                {/* <div className="icons">
                     <a href="https://www.youtube.com" target="_blank" rel="noreferrer" className="icon i-facebook">
                         <FacebookIcon/>
                     </a>
-                    <a href="https://www.youtube.com" target="_blank" rel="noreferrer" className="icon i-github">
+                    <a href="https://github.com/mpasichnyuk" target="_blank" rel="noreferrer" className="icon i-github">
                         <GithubIcon/>
                     </a>
                     <a href="https://www.youtube.com" target="_blank" rel="noreferrer" className="icon i-youtube">
                         <YoutubeIcon/>
                     </a>
-                </div>
+                </div> */}
+                <p> На этом сайте (кстати, он сделан на Реакте)  вы найдёте моё резюме и примеры проектов по веб-разработке и программированию.</p>
+                <p> Для навигации по сайту используйте меню.</p>
             </div>
         </HomePageStyled>
     );
@@ -40,7 +42,9 @@ const HomePageStyled = styled.header`
     position: relative;
 
     p{
-        margin-top: 1rem;
+        margin: 1rem;
+        
+        
     }
 
     .p-particles-js{
@@ -57,7 +61,8 @@ const HomePageStyled = styled.header`
         left: 50%;
         transform: translate(-50%,-50%);
         text-align: center;
-        width: 80%;
+        width: 60%;
+        
         .icons {
             display: flex;
             justify-content: center;

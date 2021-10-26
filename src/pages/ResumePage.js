@@ -7,8 +7,8 @@ import { InnerLayout, MainLayout } from '../styles/Layouts';
 const Resumepage = () => {
     return (
         <MainLayout>
-           
-            <Skills/>
+        
+            
             <Resume/>
             
         </MainLayout>

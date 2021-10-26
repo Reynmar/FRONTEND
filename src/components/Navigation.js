@@ -22,9 +22,7 @@ const Navigation = () => {
                 <li className="nav-item">
                     <NavLink to="/portfolio" activeClassName="active-class">портфолио</NavLink>
                 </li>
-                <li className="nav-item">
-                    <NavLink to="/blog" activeClassName="active-class">блог</NavLink>
-                </li>
+                
                 <li className="nav-item">
                     <NavLink to="/contacts" activeClassName="active-class">контакты</NavLink>
                 </li>
