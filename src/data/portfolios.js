@@ -206,7 +206,7 @@ const portfolios = [
         link2: 'https://mpasichnyuk.github.io/Portfolio-projects/tinkoff/tinkoff.html',
         title: 'HTML-вёрстка',
         text: 'Веб-сторис для банка Тинькофф'
-    },
+    }
     
 
 
