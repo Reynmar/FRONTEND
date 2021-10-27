@@ -92,7 +92,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     .nav-toggle{
-        transform: translateX(0);
+        transform: translateX(0) !important;
     }
 `
 
