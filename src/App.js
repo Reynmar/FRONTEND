@@ -13,6 +13,7 @@ import IconButton from '@mui/material/IconButton';
 import CancelIcon from '@mui/icons-material/Cancel';
 import {useState} from 'react';
 import Contacts from './pages/Contacts'
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
 
   return (
   <div className="App">
+      <ScrollToTop>
 
     <Sidebar navShow={navShow}/>
 
@@ -39,6 +41,7 @@ function App() {
           <div className="line-4"></div>
         </div>   */}
 
+        
         <Switch>
           <Route path="/" exact>
             <Homepage />
@@ -60,6 +63,7 @@ function App() {
           </Route>
         </Switch>
     </MainContentStyled>
+        </ScrollToTop>
   </div>
   );
 }
