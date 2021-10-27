@@ -17,9 +17,15 @@ const SidebarStyled = styled.div`
     z-index: 2;
     background-color: var(--sidebar-dark-color);
     transition: all .4s ease-in-out;
-
+    
+    .nav-toggle{
+        transform: translateX(0);
+    }
     @media screen and (max-width: 1080px){
         transform: translateX(-100%);
+        .nav-toggle{
+            transform: translateX(-100%);
+        }
     }
 
 `;
