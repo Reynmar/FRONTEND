@@ -22,14 +22,33 @@ import imgThisWebsite from './portfolios/react-portfolio.jpg';
 
 
 const portfolios = [
+    
     {
-        id: 1,
+        id: 19,
+        category: 'react',
+        image: imgAlfaReact,
+        link1: 'https://github.com/mpasichnyuk/react-alfa-test/tree/master',
+        link2: 'https://mpasichnyuk.github.io/react-alfa-test/',
+        title: 'API Fetch',
+        text: 'микро-SPA на Реакте, берёт информацию по API и выводит в карточки'
+    },
+    {
+        id: 20,
+        category: 'react',
+        image: imgThisWebsite,
+        link1: 'https://github.com/mpasichnyuk/mpasichnyuk.github.io/tree/master',
+        link2: 'https://mpasichnyuk.github.io',
+        title: 'React-портфолио',
+        text: 'Личный сайт, собран на react-router, styled-components, material-ui, react hooks'
+    },
+    {
+        id: 4,
         category: 'JS',
-        image: imgRecipyCards,
-        link1: 'https://github.com/mpasichnyuk/Portfolio-projects/tree/master/0A-Recipy-cards',
-        link2: 'https://mpasichnyuk.github.io/Portfolio-projects/0A-Recipy-cards/index.html',
-        title: 'Карточки с рецептами',
-        text: 'Сделаны на флексе, положены в грид.'
+        image: imgRotatingNavigation,
+        link1: 'https://github.com/mpasichnyuk/Portfolio-projects/tree/master/03-rotating_navigation',
+        link2: 'https://mpasichnyuk.github.io/Portfolio-projects/03-rotating_navigation/index.html',
+        title: 'Тюлени прекрасны!',
+        text: 'Они любят завалиться на бочок, прямо как это меню навигации.'
     },
     {
         id: 2,
@@ -41,6 +60,15 @@ const portfolios = [
         text: 'При клике карточка расширяется на всю доступную длину.'
     },
     {
+        id: 1,
+        category: 'JS',
+        image: imgRecipyCards,
+        link1: 'https://github.com/mpasichnyuk/Portfolio-projects/tree/master/0A-Recipy-cards',
+        link2: 'https://mpasichnyuk.github.io/Portfolio-projects/0A-Recipy-cards/index.html',
+        title: 'Карточки с рецептами',
+        text: 'Сделаны на флексе, положены в грид.'
+    },
+    {
         id: 3,
         category: 'JS',
         image: imgButtonsIndicator,
@@ -49,15 +77,7 @@ const portfolios = [
         title: 'Кнопки с индикацией прогресса',
         text: 'Нажмите далее для установки мастера :)'
     },
-    {
-        id: 4,
-        category: 'JS',
-        image: imgRotatingNavigation,
-        link1: 'https://github.com/mpasichnyuk/Portfolio-projects/tree/master/03-rotating_navigation',
-        link2: 'https://mpasichnyuk.github.io/Portfolio-projects/03-rotating_navigation/index.html',
-        title: 'Тюлени прекрасны!',
-        text: 'Они любят завалиться на бочок, прямо как это меню навигации.'
-    },
+    
     {
         id: 5,
         category: 'JS',
@@ -187,24 +207,7 @@ const portfolios = [
         title: 'HTML-вёрстка',
         text: 'Веб-сторис для банка Тинькофф'
     },
-    {
-        id: 19,
-        category: 'react',
-        image: imgAlfaReact,
-        link1: 'https://github.com/mpasichnyuk/react-alfa-test',
-        link2: 'https://mpasichnyuk.github.io/react-alfa-test/',
-        title: 'API Fetch',
-        text: 'микро-SPA на Реакте, берёт информацию по API и выводит в карточки'
-    },
-    {
-        id: 20,
-        category: 'react',
-        image: imgThisWebsite,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'React-портфолио',
-        text: 'Личный сайт, собран на react-router, styled-components, material-ui, react hooks'
-    },
+    
 
 
 ]
