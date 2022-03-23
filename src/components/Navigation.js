@@ -11,26 +11,35 @@ const Navigation = () => {
             </div>
             <ul className="nav-items">
                 <li className="nav-item">
-                    <NavLink to="/" activeClassName="active-class" exact>главная</NavLink>
+                    <NavLink to="/" activeClassName="active-class" exact>
+                        main
+                    </NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/about" activeClassName="active-class">обо мне</NavLink>
+                    <NavLink to="/about" activeClassName="active-class">
+                        about me
+                    </NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/resume" activeClassName="active-class">резюме</NavLink>
+                    <NavLink to="/resume" activeClassName="active-class">
+                        resume
+                    </NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/portfolio" activeClassName="active-class">портфолио</NavLink>
+                    <NavLink to="/portfolio" activeClassName="active-class">
+                        projects
+                    </NavLink>
                 </li>
-                
+
                 <li className="nav-item">
-                    <NavLink to="/contacts" activeClassName="active-class">контакты</NavLink>
+                    <NavLink to="/contacts" activeClassName="active-class">
+                        contacts
+                    </NavLink>
                 </li>
             </ul>
             <footer className="footer">
-                <p>@2021 Mikhail Pasichniuk</p>
+                <p>@2022 Mikhail Pasichniuk</p>
             </footer>
-
         </NavigationStyled>
     );
 }

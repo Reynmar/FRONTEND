@@ -12,28 +12,32 @@ import PublicIcon from '@mui/icons-material/Public';
 
 const Servicessection = () => {
     return (
-        
-            <ServiceSectionStyled>
-            <TitleSmall icon={<PublicIcon/>} title={'Сфера деятельности'} />
-                <div className="services">
-                    <ServiceCard 
+        <ServiceSectionStyled>
+            <TitleSmall icon={<PublicIcon />} title={"Job areas"} />
+            <div className="services">
+                <ServiceCard
                     image={webProgramming}
-                    title={'web дизайн'} 
-                    paragraph={'Опыт работы в графическом дизайне, понимание композиции, типографики и теории цвета.'} 
-                    />
-                    <ServiceCard 
+                    title={"Visual Design"}
+                    paragraph={
+                        "Опыт работы в графическом дизайне, понимание композиции, типографики и теории цвета."
+                    }
+                />
+                <ServiceCard
                     image={animation}
-                    title={'анимация'} 
-                    paragraph={'Опыт работы с моушн-графикой и 3D анимацией, понимание монтажа и time-based медиа.'} 
-                    />
-                    <ServiceCard 
+                    title={"Animation"}
+                    paragraph={
+                        "Опыт работы с моушн-графикой и 3D анимацией, понимание монтажа и time-based медиа."
+                    }
+                />
+                <ServiceCard
                     image={react}
-                    title={'react'} 
-                    paragraph={'Этот сайт создан на React: самом популярном на данный момент фреймворке для создания интерактивных веб-страниц и современных SPA.'} 
-                    />
-                </div>
-            </ServiceSectionStyled>
-        
+                    title={"ReactJS"}
+                    paragraph={
+                        "This website created with  React: world-famous framework for interactive web pages and Single-Page Applications самом популярном на данный момент фреймворке для создания интерактивных веб-страниц и современных SPA."
+                    }
+                />
+            </div>
+        </ServiceSectionStyled>
     );
 }
 

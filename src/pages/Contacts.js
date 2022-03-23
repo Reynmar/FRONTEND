@@ -12,15 +12,19 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 const Contacts = () => {
     return (
         <ContactsStyled>
-
             <div className="p-particles-js">
-                <Particle/>
+                <Particle />
             </div>
 
             <div className="typography">
-                <h1>Михаил Пасичнюк <span> контакты</span></h1>
-                <p>напишите мне в любой социальной сети, на почту или в телеграм </p>
-                
+                <h1>
+                    Mikhail Pasichniuk <span> contacts</span>
+                </h1>
+                <p>
+                    You are more then welcome to reach me using e-mail,
+                    telegram, or any of the Social Networks available below{" "}
+                </p>
+
                 {/* <div className="contact-info">
                     <FacebookIcon/>
                     <h2>mpasichnyuk@gmail.com</h2>
@@ -29,28 +33,57 @@ const Contacts = () => {
                     <FacebookIcon/>
                     <h2>+79999730731</h2>
                 </div> */}
-                
-               
+
                 <div className="icons">
-                    <a href="https://github.com/mpasichnyuk" target="_blank" rel="noreferrer" className="icon i-github">
-                        <GithubIcon/>
+                    <a
+                        href="https://github.com/mpasichnyuk"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="icon i-github"
+                    >
+                        <GithubIcon />
                     </a>
-                    <a href="https://www.facebook.com/michaelreynmar" target="_blank" rel="noreferrer" className="icon i-facebook">
-                        <FacebookIcon/>
+                    <a
+                        href="https://www.facebook.com/michaelreynmar"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="icon i-facebook"
+                    >
+                        <FacebookIcon />
                     </a>
-                    <a href="https://www.youtube.com/channel/UCL8LPGjXjvkc0dWGIJic7hQ" target="_blank" rel="noreferrer" className="icon i-youtube">
-                        <YoutubeIcon/>
+                    <a
+                        href="https://www.youtube.com/channel/UCL8LPGjXjvkc0dWGIJic7hQ"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="icon i-youtube"
+                    >
+                        <YoutubeIcon />
                     </a>
-                    <a href="https://www.instagram.com/michael_reynmar/" target="_blank" rel="noreferrer" className="icon i-youtube">
-                        <InstagramIcon/>
-                    </a>
-                    
-                    <a href="mailto:mpasichnyuk@gmail.com" target="_blank" rel="noreferrer" className="icon i-youtube">
-                        <MarkEmailReadIcon/>
+                    <a
+                        href="https://www.instagram.com/michael_reynmar/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="icon i-youtube"
+                    >
+                        <InstagramIcon />
                     </a>
 
-                    <a href="https://t.me/MichaelReynmar" target="_blank" rel="noreferrer" className="icon i-youtube">
-                        <TelegramIcon/>
+                    <a
+                        href="mailto:mpasichnyuk@gmail.com"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="icon i-youtube"
+                    >
+                        <MarkEmailReadIcon />
+                    </a>
+
+                    <a
+                        href="https://t.me/MichaelReynmar"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="icon i-youtube"
+                    >
+                        <TelegramIcon />
                     </a>
                 </div>
             </div>

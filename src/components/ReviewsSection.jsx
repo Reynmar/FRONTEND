@@ -9,19 +9,23 @@ import ChatIcon from '@mui/icons-material/Chat';
 
 const ReviewsSection = () => {
     return (
-        
-            <ReviewsStyled>
-
-                
-                <InnerLayout>
-                <TitleSmall icon={<ChatIcon/>} title={'Отзывы'} />
-                    <div className="reviews">                        
-                        <ReviewItem text={"Пока здесь нет отзывов, так что эти карточки здесь просто чтобы круто выглядело."}/>
-                        <ReviewItem text={"Но когда здесь появятся отзывы, они будут ааапупенными!"}/>
-                    </div>
-                </InnerLayout>
-            </ReviewsStyled>
-        
+        <ReviewsStyled>
+            <InnerLayout>
+                <TitleSmall icon={<ChatIcon />} title={"review"} />
+                <div className="reviews">
+                    <ReviewItem
+                        text={
+                            "Just made these cards for futures reviews, when they arrive! Пока здесь нет отзывов, так что эти карточки здесь просто чтобы круто выглядело."
+                        }
+                    />
+                    <ReviewItem
+                        text={
+                            "Но когда здесь появятся отзывы, они будут ааапупенными!"
+                        }
+                    />
+                </div>
+            </InnerLayout>
+        </ReviewsStyled>
     );
 }
 

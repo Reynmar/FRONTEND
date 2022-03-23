@@ -10,7 +10,7 @@ const Skills = () => {
     return (
         <SkillsStyled>
             
-            <TitleSmall icon={<BuildIcon/>} title={'Навыки'} />
+            <TitleSmall icon={<BuildIcon/>} title={'Skills'} />
                 <>
                     <div className="skills">
                         <ProgressBar

@@ -10,14 +10,19 @@ import YoutubeIcon from '@material-ui/icons/YouTube'
 const Homepage = () => {
     return (
         <HomePageStyled>
-
             <div className="p-particles-js">
-                <Particle/>
+                <Particle />
             </div>
 
             <div className="typography">
-                <h1>Михаил Пасичнюк <span> портфолио</span></h1>
-                <p>Привет! Я - Михаил Пасичнюк, Junior Frontend React-разработчик и программист JavaScript с опытом работы в медиа и дизайне. </p>
+                <h1>
+                    Mikhail Pasichniuk <span> portfolio</span>
+                </h1>
+                <p>
+                    Hello! I am Mikhail Pasichniuk, aspiring Frontend,
+                    JavaScript and React-developer with additional experience in
+                    media and visuals.{" "}
+                </p>
                 {/* <div className="icons">
                     <a href="https://www.youtube.com" target="_blank" rel="noreferrer" className="icon i-facebook">
                         <FacebookIcon/>
@@ -29,8 +34,12 @@ const Homepage = () => {
                         <YoutubeIcon/>
                     </a>
                 </div> */}
-                <p> На этом сайте (кстати, он сделан на Реакте)  вы найдёте моё резюме и примеры проектов по веб-разработке и программированию.</p>
-                <p> Для навигации по сайту используйте меню.</p>
+                <p>
+                    {" "}
+                    This website is made using React and you can find here my CV
+                    and examples of my Frontend Projects.
+                </p>
+                <p> Use the menu for navigation</p>
             </div>
         </HomePageStyled>
     );

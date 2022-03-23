@@ -24,8 +24,8 @@ const Portfoliopage = () => {
 
     return (
         <MainLayout>
-            <Title title={'Портфолио'} span={'Портфолио'} />
-                <h4>Сейчас показано: {menuItems.length} проектов</h4>
+            <Title title={'Projects'} span={'Projects'} />
+                <h4>Now showing: {menuItems.length} projects</h4>
             <InnerLayout>
                 <Button filterFunc={filterFunc} buttonsList={buttonsList}/>
                 <Menu menuItems={menuItems}/>

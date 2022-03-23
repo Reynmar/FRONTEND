@@ -11,15 +11,20 @@ const Resume = () => {
     return (
         <ResumeStyled>
             
-                <Title title={'резюме'} span={'резюме'}/>
+                <Title title={'resume'} span={'resume'}/>
                 <InnerLayout>
             
-                    <TitleSmall className="small-title"  icon={<CardTravelIcon/>} title={'Опыт работы'}/>
+                    <TitleSmall className="small-title"  icon={<CardTravelIcon/>} title={'Experience'}/>
+                        <ResumeItem
+                            year={"2022"}
+                            title={"Contractor"}
+                            subtitle={'Frontend Developer'}
+                            text={"Worked for DualBoot Partners and DebtBook company as a Frontend Developer, developed web applications using HTML, CSS, JavaScript, React and other tools"}    />
                         <ResumeItem
                             year={"2020 - 2021"}
                             title={"Freelance"}
-                            subtitle={'Веб-разработчик'}
-                            text={"Делал сайты на тильде для клиентов, делал учебные проекты на HTML, CSS, JS, React, изучал фронтенд, CS, алгоритмы и структуры данных."}    />
+                            subtitle={'Frontend Web Developer'}
+                            text={"Created no-code websites for clients and created educational projects using HTML, CSS, JS, React, learned Frontend, JavaScript, React, Computer Science, algorithms and Data Structures."}    />
                         <ResumeItem
                             year={"2015 - 2020"}
                             title={"Телеканал МУЗ-ТВ"}

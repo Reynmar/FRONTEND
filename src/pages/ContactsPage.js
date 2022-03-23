@@ -11,7 +11,7 @@ import ContactItem from '../components/ContactItem';
 const ContactsPage = () => {
     return (
         <MainLayout>
-            <Title title={'контакты'} span={'контакты'} />
+            <Title title={'contacts'} span={'contacts'} />
             <ContactsPageStyled>
             <InnerLayout className='contact-section'>
                 <div className="left-content">

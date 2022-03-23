@@ -10,26 +10,28 @@ const Imagesection = () => {
                 <img src={resume} alt="" />
             </div>
             <div className="right-content">
-                
-                <h4>Михаил <span> Пасичнюк</span></h4>
-                
+                <h4>
+                    Mikhail <span> Pasichniuk</span>
+                </h4>
+
                 <p className="paragraph">
-                    Frontend React-разработчик и программист JavaScript с планами на Фулл-стек. Опыт работы в медиа и дизайне.
+                    Frontend, JavaScript, React-developer, passionate for modern
+                    technology, with additional expereince in media and visuals.
                 </p>
                 <div className="about-info">
                     <div className="info-title">
-                        <p>направление </p>
-                        <p>возраст</p>
-                        <p>локация</p>
-                        <p>языки</p>
-                        <p>работа</p>
+                        <p>Job field </p>
+                        <p>Age</p>
+                        <p>Location</p>
+                        <p>Languages</p>
+                        <p>Job type</p>
                     </div>
                     <div className="info">
-                        <p>: Фронтенд-разработчик</p>
+                        <p>: Frontend Developer</p>
                         <p>: 35</p>
-                        <p>: Москва</p>
-                        <p>: English C1 / RU / UA / French A1</p>
-                        <p>: Freelance / Full-time / Part-time</p>
+                        <p>: Charlotte, NC</p>
+                        <p>: English. Ukrainian. Russian. </p>
+                        <p>: Full-time, Part-time, Remote</p>
                     </div>
                 </div>
                 {/* <Buttonprimary title={'Скачать резюме'}/>
