@@ -1,3 +1,3 @@
-# ФРОНТЕНТД ПОРТФОЛИО
-Учебные проекты по фронтенду и веб-дизайну с использованием HTML, CSS, JavaScript, React.
-Лайв-версию можно посмотреть в GitHub Pages.
+# Portfolio of my Frontend Projects
+Projects built for educational purposes using HTML, CSS, JavaScript, React.
+Live version available on GitHub Pages.
