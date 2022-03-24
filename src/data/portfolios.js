@@ -29,7 +29,7 @@ const portfolios = [
         link1: "https://github.com/mpasichnyuk/react-alfa-test/tree/master",
         link2: "https://mpasichnyuk.github.io/react-alfa-test/",
         title: "API Fetch",
-        text: "small SPA made with React, fetches data using API and shows it in cards",
+        text: "small SPA made with React, that fetches data using API and shows in cards",
     },
     {
         id: 20,
@@ -37,8 +37,8 @@ const portfolios = [
         image: imgThisWebsite,
         link1: "https://github.com/mpasichnyuk/mpasichnyuk.github.io/tree/master",
         link2: "https://mpasichnyuk.github.io",
-        title: "React-портфолио",
-        text: "Личный сайт, собран на react-router, styled-components, material-ui, react hooks",
+        title: "Portfolio website",
+        text: "Personal portfolio website, made with React, react-router, styled-components, material-ui, react hooks",
     },
     {
         id: 4,
@@ -46,8 +46,8 @@ const portfolios = [
         image: imgRotatingNavigation,
         link1: "https://github.com/mpasichnyuk/Portfolio-projects/tree/master/03-rotating_navigation",
         link2: "https://mpasichnyuk.github.io/Portfolio-projects/03-rotating_navigation/index.html",
-        title: "Тюлени прекрасны!",
-        text: "Они любят завалиться на бочок, прямо как это меню навигации.",
+        title: "Awesome seals!",
+        text: "That navigation menu is like a seal - they both love to rest on their side.",
     },
     {
         id: 2,
@@ -55,8 +55,8 @@ const portfolios = [
         image: imgExpandingCards,
         link1: "https://github.com/mpasichnyuk/Portfolio-projects/tree/master/01-expanding-cards",
         link2: "https://mpasichnyuk.github.io/Portfolio-projects/01-expanding-cards/index.html",
-        title: "Анимированные Флекс-карточки",
-        text: "При клике карточка расширяется на всю доступную длину.",
+        title: "Animated Flex Cards",
+        text: "Click and it will magically take all available screenspace.",
     },
     {
         id: 1,
@@ -64,8 +64,8 @@ const portfolios = [
         image: imgRecipyCards,
         link1: "https://github.com/mpasichnyuk/Portfolio-projects/tree/master/0A-Recipy-cards",
         link2: "https://mpasichnyuk.github.io/Portfolio-projects/0A-Recipy-cards/index.html",
-        title: "Карточки с рецептами",
-        text: "Сделаны на флексе, положены в грид.",
+        title: "Simple recipy cards",
+        text: "Cards made with flex-box, arranged using CSS-Grid.",
     },
     {
         id: 3,
@@ -73,8 +73,8 @@ const portfolios = [
         image: imgButtonsIndicator,
         link1: "https://github.com/mpasichnyuk/Portfolio-projects/tree/master/02-buttons-indicator",
         link2: "https://mpasichnyuk.github.io/Portfolio-projects/02-buttons-indicator/index.html",
-        title: "Кнопки с индикацией прогресса",
-        text: "Нажмите далее для установки мастера :)",
+        title: "Step Progress Indication",
+        text: "Click button to go to next or previous steps",
     },
 
     {
@@ -83,8 +83,8 @@ const portfolios = [
         image: imgSearchWidget,
         link1: "https://github.com/mpasichnyuk/Portfolio-projects/tree/master/04-search-widget",
         link2: "https://mpasichnyuk.github.io/Portfolio-projects/04-search-widget/index.html",
-        title: "Скрытый виджет",
-        text: "Нажми на иконку и откроется поле ввода",
+        title: "Hidden search field",
+        text: "Click on the icon to open the search field",
     },
     {
         id: 6,
@@ -92,8 +92,8 @@ const portfolios = [
         image: imgRandomChoice,
         link1: "https://github.com/mpasichnyuk/Portfolio-projects/tree/master/13-random-choice",
         link2: "https://mpasichnyuk.github.io/Portfolio-projects/13-random-choice/index.html",
-        title: "Случайный выбиратор",
-        text: "Если не можешь выбрать, за тебя выберет Случайный Выбиратор!",
+        title: "Randomized choicer",
+        text: "Enter your options an let the RND-fate decide!",
     },
     {
         id: 7,
@@ -101,8 +101,8 @@ const portfolios = [
         image: imgCheapCheckbox,
         link1: "https://github.com/mpasichnyuk/Portfolio-projects/tree/master/32-cheap-checkbox",
         link2: "https://mpasichnyuk.github.io/Portfolio-projects/32-cheap-checkbox/index.html",
-        title: "Идеальный проект",
-        text: "Собери идеальный проект - быстрый, качественный, недорогой!",
+        title: "Perfect project",
+        text: "Make your perfect project - quick, cheap and of highest quality!",
     },
 
     {
@@ -111,8 +111,8 @@ const portfolios = [
         image: imgColorHoverBoard,
         link1: "https://github.com/mpasichnyuk/Portfolio-projects/tree/master/36-color-hover-board",
         link2: "https://mpasichnyuk.github.io/Portfolio-projects/36-color-hover-board/index.html",
-        title: "Цветные шашечки",
-        text: "Проведи мышкой над доской!",
+        title: "Glowing Color Board",
+        text: "Hover your mouse and see for yourself!",
     },
 
     {
@@ -121,8 +121,8 @@ const portfolios = [
         image: imgTodoList,
         link1: "https://github.com/mpasichnyuk/Portfolio-projects/tree/master/49-todo-list",
         link2: "https://mpasichnyuk.github.io/Portfolio-projects/49-todo-list/index.html",
-        title: "Заметки",
-        text: "Динамически пополняемый список задач на чистом JS",
+        title: "Simple Notes Page",
+        text: "Note-taking list made with JavaScript",
     },
 
     {
@@ -131,8 +131,8 @@ const portfolios = [
         image: imgColorSlider,
         link1: "https://github.com/mpasichnyuk/Portfolio-projects/tree/master/panda/color-slider",
         link2: "https://mpasichnyuk.github.io/Portfolio-projects/panda/color-slider/index.html",
-        title: "Слайдер с выбором цвета",
-        text: "Слайдер для выбора RGB цвета на чистом JS",
+        title: "Slider for Color Choice",
+        text: "RGB-color choice made with JavaScript",
     },
     {
         id: 11,
@@ -141,7 +141,7 @@ const portfolios = [
         link1: "https://github.com/mpasichnyuk/Portfolio-projects/tree/master/game-foxnbats",
         link2: "https://reynmar.itch.io/fox-and-bats",
         title: "Fox & Bats",
-        text: "Ранний прототип action-adventure в стиле Zelda на движке GODOT",
+        text: "Very simple prototype for a 2D Zelda-style adventure game, made with GODOT engine",
     },
     {
         id: 12,
@@ -149,8 +149,8 @@ const portfolios = [
         image: imgGameGlory,
         link1: "https://github.com/mpasichnyuk/Portfolio-projects/tree/master/game-glory",
         link2: "https://reynmar.itch.io/textforglory",
-        title: "Поход за Славой",
-        text: "Текстовый квест с механиками боя и RPG, сделан на движке Twine",
+        title: "Text for Glory",
+        text: "Text-based adventure-RPG made with Twine engine.",
     },
     {
         id: 13,
@@ -159,7 +159,7 @@ const portfolios = [
         link1: "https://github.com/mpasichnyuk/Portfolio-projects/tree/master/game-pico-adventure",
         link2: "https://reynmar.itch.io/micro-adventure-beta",
         title: "PICO-8 Adventure",
-        text: "простой прототип top-down adventure на движке Pico-8",
+        text: "Retro pixel-art game prototype for top-down adventure, made with Pico-8 engine",
     },
     {
         id: 14,
@@ -167,8 +167,8 @@ const portfolios = [
         image: imgReactFlashCards,
         link1: "https://github.com/mpasichnyuk/Portfolio-projects/tree/master/react-flashcards",
         link2: "https://mpasichnyuk.github.io/Portfolio-projects/react-flashcards/index.html",
-        title: "Флеш-карточки",
-        text: "Интерактивные карточки для изучения иностранного языка",
+        title: "Flash Cards for word memorization",
+        text: "Educational project, made with React class components",
     },
     {
         id: 15,
@@ -176,8 +176,8 @@ const portfolios = [
         image: imgReactGuessGame,
         link1: "https://github.com/mpasichnyuk/Portfolio-projects/tree/master/react-guess-game",
         link2: "https://mpasichnyuk.github.io/Portfolio-projects/react-guess-game/index.html",
-        title: "Угадай число",
-        text: "математический тренажер для первоклассников",
+        title: "Guess the number",
+        text: "Mathematical exercises for small children",
     },
     {
         id: 16,
@@ -186,7 +186,7 @@ const portfolios = [
         link1: "https://github.com/mpasichnyuk/Portfolio-projects/tree/master/react-todos",
         link2: "https://mpasichnyuk.github.io/Portfolio-projects/react-todos/index.html",
         title: "Todo list",
-        text: "Простой списк задач на React class components",
+        text: "Simple todo-list made with React class components",
     },
     {
         id: 17,
@@ -194,8 +194,8 @@ const portfolios = [
         image: imgReactTable,
         link1: "https://github.com/mpasichnyuk/Portfolio-projects/tree/master/panda/table-react",
         link2: "https://mpasichnyuk.github.io/Portfolio-projects/panda/table-react/index.html",
-        title: "Интерактивная таблица",
-        text: "Интерактивная таблица с фильтрацией, пагинацией, и сортировкой по колонкам",
+        title: "Interactive React Table",
+        text: "No-plugins, pure JavaScript. Implemented filtering, pagination, column sorting from scratch.",
     },
     {
         id: 18,
@@ -203,8 +203,8 @@ const portfolios = [
         image: imgVerstkaTinkoff,
         link1: "https://github.com/mpasichnyuk/Portfolio-projects/tree/master/tinkoff",
         link2: "https://mpasichnyuk.github.io/Portfolio-projects/tinkoff/tinkoff.html",
-        title: "HTML-вёрстка",
-        text: "Веб-сторис для банка Тинькофф",
+        title: "HTML and CSS pages",
+        text: "Small web-pages, to be used as Stories in a Mobile App",
     },
 ];
 
