@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/static/js/main.9ed297cc.chunk.js",
-    "main.js.map": "/static/js/main.9ed297cc.chunk.js.map",
+    "main.js": "/static/js/main.dcd1969f.chunk.js",
+    "main.js.map": "/static/js/main.dcd1969f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.34eeea64.js",
     "runtime-main.js.map": "/static/js/runtime-main.34eeea64.js.map",
-    "static/js/2.963fefee.chunk.js": "/static/js/2.963fefee.chunk.js",
-    "static/js/2.963fefee.chunk.js.map": "/static/js/2.963fefee.chunk.js.map",
+    "static/js/2.4bb451fb.chunk.js": "/static/js/2.4bb451fb.chunk.js",
+    "static/js/2.4bb451fb.chunk.js.map": "/static/js/2.4bb451fb.chunk.js.map",
     "index.html": "/index.html",
-    "static/js/2.963fefee.chunk.js.LICENSE.txt": "/static/js/2.963fefee.chunk.js.LICENSE.txt",
+    "static/js/2.4bb451fb.chunk.js.LICENSE.txt": "/static/js/2.4bb451fb.chunk.js.LICENSE.txt",
     "static/media/01-expanding-cards.1495205a.png": "/static/media/01-expanding-cards.1495205a.png",
     "static/media/03-rotating_navigation.f811fabe.png": "/static/media/03-rotating_navigation.f811fabe.png",
     "static/media/04-search-widget.8215ff08.png": "/static/media/04-search-widget.8215ff08.png",
@@ -38,7 +38,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.34eeea64.js",
-    "static/js/2.963fefee.chunk.js",
-    "static/js/main.9ed297cc.chunk.js"
+    "static/js/2.4bb451fb.chunk.js",
+    "static/js/main.dcd1969f.chunk.js"
   ]
 }
