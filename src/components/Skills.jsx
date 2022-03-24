@@ -9,43 +9,25 @@ import BuildIcon from '@mui/icons-material/Build';
 const Skills = () => {
     return (
         <SkillsStyled>
-            
-            <TitleSmall icon={<BuildIcon/>} title={'Skills'} />
-                <>
-                    <div className="skills">
-                        <ProgressBar
-                            title={'HTML5'}
-                            width={'90%'}
-                            text={'90%'}
-                        />
-                        <ProgressBar
-                            title={'CSS3'}
-                            width={'80%'}
-                            text={'80%'}
-                        />
-                        <ProgressBar
-                            title={'JavaScript'}
-                            width={'75%'}
-                            text={'70%'}
-                        />
-                        <ProgressBar
-                            title={'React'}
-                            width={'70%'}
-                            text={'70%'}
-                        />
-                        <ProgressBar
-                            title={'Python'}
-                            width={'20%'}
-                            text={'20%'}
-                        />
-                        <ProgressBar
-                            title={'English'}
-                            width={'95%'}
-                            text={'95%'}
-                        />
-                    </div>
-                </>
-            
+            <TitleSmall icon={<BuildIcon />} title={"Skills"} />
+            <>
+                <div className="skills">
+                    <ProgressBar title={"HTML5"} width={"90%"} text={"90%"} />
+                    <ProgressBar title={"CSS3"} width={"80%"} text={"80%"} />
+                    <ProgressBar
+                        title={"JavaScript"}
+                        width={"75%"}
+                        text={"70%"}
+                    />
+                    <ProgressBar title={"React"} width={"70%"} text={"70%"} />
+                    <ProgressBar title={"Python"} width={"20%"} text={"20%"} />
+                    <ProgressBar
+                        title={"Data Science"}
+                        width={"15%"}
+                        text={"15%"}
+                    />
+                </div>
+            </>
         </SkillsStyled>
     );
 }

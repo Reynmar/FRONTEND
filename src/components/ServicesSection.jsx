@@ -19,21 +19,21 @@ const Servicessection = () => {
                     image={webProgramming}
                     title={"Visual Design"}
                     paragraph={
-                        "Опыт работы в графическом дизайне, понимание композиции, типографики и теории цвета."
+                        "Experience in Visual Design, composition, typography and color theory."
                     }
                 />
                 <ServiceCard
                     image={animation}
                     title={"Animation"}
                     paragraph={
-                        "Опыт работы с моушн-графикой и 3D анимацией, понимание монтажа и time-based медиа."
+                        "Experience with 3D animation and Motion Graphics, understanding of editing for time-based media."
                     }
                 />
                 <ServiceCard
                     image={react}
                     title={"ReactJS"}
                     paragraph={
-                        "This website created with  React: world-famous framework for interactive web pages and Single-Page Applications самом популярном на данный момент фреймворке для создания интерактивных веб-страниц и современных SPA."
+                        "This website is created with React: world-famous framework for interactive web pages and Single-Page Applications."
                     }
                 />
             </div>

@@ -35,8 +35,7 @@ const Homepage = () => {
                     </a>
                 </div> */}
                 <p>
-                    {" "}
-                    This website is made using React and you can find here my CV
+                    This website is made using React and here you can find my CV
                     and examples of my Frontend Projects.
                 </p>
                 <p> Use the menu for navigation</p>

@@ -10,142 +10,178 @@ import ResumeItem from './ResumeItem';
 const Resume = () => {
     return (
         <ResumeStyled>
-            
-                <Title title={'resume'} span={'resume'}/>
-                <InnerLayout>
-            
-                    <TitleSmall className="small-title"  icon={<CardTravelIcon/>} title={'Experience'}/>
-                        <ResumeItem
-                            year={"2022"}
-                            title={"Contractor"}
-                            subtitle={'Frontend Developer'}
-                            text={"Worked for DualBoot Partners and DebtBook company as a Frontend Developer, developed web applications using HTML, CSS, JavaScript, React and other tools"}    />
-                        <ResumeItem
-                            year={"2020 - 2021"}
-                            title={"Freelance"}
-                            subtitle={'Frontend Web Developer'}
-                            text={"Created no-code websites for clients and created educational projects using HTML, CSS, JS, React, learned Frontend, JavaScript, React, Computer Science, algorithms and Data Structures."}    />
-                        <ResumeItem
-                            year={"2015 - 2020"}
-                            title={"Телеканал МУЗ-ТВ"}
-                            subtitle={'Исполнительный продюсер эфирного промо'}
-                            text={"Выполнял нелинейный видеомонтаж, управлял командой дизайнеров и монтажёров, режиссировал съёмки, участвовал в планировании кампаний и креативных собраниях."}    />
-                        <ResumeItem
-                            year={"2013 - 2015"}
-                            title={'Продюсерский центр ЭТО КИНО'}
-                            subtitle={'Ведущий режиссёр видеопроизводства'}
-                            text={"Выполнял нелинейный видеомонтаж используя инструменты Adobe Premiere, After Effects, Adobe Photoshop и Sony Vegas, руководил съёмкой на площадке и принимал решения о визуальной композиции, ракурсах и способах съёмки."}    />
-                        <ResumeItem
-                            year={"2011 - 2013"}
-                            title={'ООО IT-Online'}
-                            subtitle={'Старший видеоредактор'}
-                            text={"Выполнял потоковый нелинейный монтаж видеоконтента для публикации в вебе.Руководил работой отдела видеоконтента в онлайн-проектах AnastasiaDate, AsianBeauty, AfricanBeauty и AmoLatina. Написал подробный и исчерпывающий регламент для партнёров компании с указанием инструкций и рекомендаций по созданию партнёрского контента. Выполнял поиск и подбор персонала в отдел фото- и видео- обработки и модерации. Работал с базой пользователей и контента на сайте используя панель администратора."}  
-                            />
-                        <ResumeItem
-                            year={"2010"}
-                            title={'Студия LEONARUS'}
-                            subtitle={'Оператор-монтажёр'}
-                            text={"Выполнял нелинейный видеомонтаж используя инструменты Adobe Premiere и After Effects. Участвовал в качестве оператора и второго режиссёра в постановочных и репортажных съёмках корпоративных видео, интервью, репортажей с мероприятий."}  
-                            />
-
-                    <div className="small-title">
-                        <TitleSmall className="small-title" icon={<SchoolIcon/>} title={'Образование'}/>
-                    </div>
+            <Title title={"resume"} span={"resume"} />
+            <InnerLayout>
+                <TitleSmall
+                    className="small-title"
+                    icon={<CardTravelIcon />}
+                    title={"Experience"}
+                />
+                <ResumeItem
+                    year={"2022"}
+                    title={"Contractor"}
+                    subtitle={"Frontend Developer"}
+                    text={
+                        "Worked for DualBoot Partners and DebtBook company as a Frontend Developer, developed web applications using HTML, CSS, JavaScript, React and other tools"
+                    }
+                />
+                <ResumeItem
+                    year={"2020 - 2021"}
+                    title={"Freelance"}
+                    subtitle={"Frontend Web Developer"}
+                    text={
+                        "Created no-code websites for clients and created educational projects using HTML, CSS, JS, React, learned Frontend, JavaScript, React, Computer Science, algorithms and Data Structures."
+                    }
+                />
+                <ResumeItem
+                    year={"2015 - 2020"}
+                    title={"MUZ-TV Channel, Moscow"}
+                    subtitle={
+                        "Executive Producer and Editor for Promo Department"
+                    }
+                    text={
+                        "Non-linear Video Editing, managing a team of editors and designers, video directing, creative brainstorming and advertising campaing planning."
+                    }
+                />
+                <ResumeItem
+                    year={"2013 - 2015"}
+                    title={"ETO KINO Production Center, Moscow"}
+                    subtitle={"Lead Video Director"}
+                    text={
+                        "Editing and video creation using Adobe Premiere, After Effects, Adobe Photoshop и Sony Vegas, on-set directing for video production, working with talent, creating educational content."
+                    }
+                />
+                <ResumeItem
+                    year={"2011 - 2013"}
+                    title={"IT-Online LLC, aka Social Discovery Ventures"}
+                    subtitle={"Senior Video Editor for On-Line Dating Website"}
+                    text={
+                        "Video editing for web publishing. Managed a team of video editors for on-line projects AnastasiaDate, AsianBeauty, AfricanBeauty и AmoLatina."
+                    }
+                />
+                <ResumeItem
+                    year={"2010"}
+                    title={"LEONARUS Video Production Studio"}
+                    subtitle={"Cameraman, Video Editor"}
+                    text={
+                        "Non-linear video editing using Adobe Premiere and After Effects. Worked as cameraman and second director during the production of educational, corporate and documentary videos."
+                    }
+                />
 
                 <ResumeItem
-                        year={"2003 - 2008"}
-                        title={'МАТИ-РГТУ им. К.Э.Циолковского'}
-                        subtitle={'Экономический факультет'}
-                        text={'Диплом специалиста по специальности "Бухучёт, Финансовый анализ и Аудит". '}  
-                        />
-                
-                
+                    year={"2008 - 2009"}
+                    title={"SPK-STROI LLC"}
+                    subtitle={"Junior Accounting Specialist"}
+                    text={
+                        "Worked as a Junior Accounting Specialist, mainly responsible for data entry from paper contracts into electronic accounting system."
+                    }
+                />
+
                 <div className="small-title">
-                        <TitleSmall icon={<SchoolIcon/>} title={'Курсы'}/>
+                    <TitleSmall
+                        className="small-title"
+                        icon={<SchoolIcon />}
+                        title={"Education"}
+                    />
                 </div>
 
                 <ResumeItem
-                        year={"2021"}
-                        title={'FreeCodeCamp'}
-                        subtitle={'JavaScript Algorithms and Data Structures'}
-                        text={""}  
-                        />
-                    <ResumeItem
-                            year={"2021"}
-                            title={'SoloLearn'}
-                            subtitle={'HTML5 + CSS3'}
-                            text={""}  
-                            />
-                    <ResumeItem
-                            year={"2021"}
-                            title={'Codecademy'}
-                            subtitle={'Responsive Web Design'}
-                            text={""}  
-                            />
-                    <ResumeItem
-                            year={"2021"}
-                            title={'Harvard OpenCourseWare'}
-                            subtitle={'CS50x Computer Science'}
-                            text={""}  
-                            />
-                    <ResumeItem
-                            year={"2021"}
-                            title={'Codecademy'}
-                            subtitle={'GO lang basics'}
-                            text={""}  
-                            />
-                    <ResumeItem
-                            year={"2019"}
-                            title={'British Council IELTS English testing'}
-                            subtitle={'IELTS English Level Certificate -- C1'}
-                            text={""}  
-                            />
-                    <ResumeItem
-                            year={"2019"}
-                            title={'Coursera'}
-                            subtitle={'Game Design'}
-                            text={"Coursera and California Institute of Arts"}  
-                            />
-                    <ResumeItem
-                            year={"2015"}
-                            title={'центр "Специалист"'}
-                            subtitle={'Основы программирование на Java SE 1.8'}
-                            text={""}  
-                            />
-                    <ResumeItem
-                            year={"2015"}
-                            title={'Coursera'}
-                            subtitle={'Fundamental English Writing'}
-                            text={"hosted by Mt. San Jacinto College"}  
-                            />
-                    <ResumeItem
-                            year={"2015"}
-                            title={'Coursera'}
-                            subtitle={'Создание мобильных приложений под Android'}
-                            text={""}  
-                            />
-                    <ResumeItem
-                            year={"2015"}
-                            title={'Codecademy'}
-                            subtitle={'Python for beginners'}
-                            text={""}  
-                            />
-                    <ResumeItem
-                            year={"2013"}
-                            title={'центр "Специалист"'}
-                            subtitle={'Основы 3D-моделирования и анимации в 3DS MAX'}
-                            text={""}  
-                            />
-                    <ResumeItem
-                            year={"2002"}
-                            title={'МАТИ-РГТУ'}
-                            subtitle={'Основы программирования на Visual Basic'}
-                            text={""}  
-                            />
-                   
-            
-                </InnerLayout>
-            
+                    year={"2003 - 2008"}
+                    title={
+                        "MATI-RGTU of Tsiolkovsky, Russian State Technological university"
+                    }
+                    subtitle={"Economics"}
+                    text={
+                        'Diploma of Specialist in "Accounting, Analisys and Audit'
+                    }
+                />
+
+                <div className="small-title">
+                    <TitleSmall
+                        icon={<SchoolIcon />}
+                        title={"Additional courses"}
+                    />
+                </div>
+
+                <ResumeItem
+                    year={"2021"}
+                    title={"FreeCodeCamp"}
+                    subtitle={"JavaScript Algorithms and Data Structures"}
+                    text={""}
+                />
+                <ResumeItem
+                    year={"2021"}
+                    title={"SoloLearn"}
+                    subtitle={"HTML5 + CSS3"}
+                    text={""}
+                />
+                <ResumeItem
+                    year={"2021"}
+                    title={"Codecademy"}
+                    subtitle={"Responsive Web Design"}
+                    text={""}
+                />
+                <ResumeItem
+                    year={"2021"}
+                    title={"Harvard OpenCourseWare"}
+                    subtitle={"CS50x Computer Science"}
+                    text={""}
+                />
+                <ResumeItem
+                    year={"2021"}
+                    title={"Codecademy"}
+                    subtitle={"GO lang basics"}
+                    text={""}
+                />
+                <ResumeItem
+                    year={"2019"}
+                    title={"British Council IELTS English testing"}
+                    subtitle={"IELTS English Level Certificate -- C1"}
+                    text={""}
+                />
+                <ResumeItem
+                    year={"2019"}
+                    title={"Coursera"}
+                    subtitle={"Game Design"}
+                    text={"Coursera and California Institute of Arts"}
+                />
+                <ResumeItem
+                    year={"2015"}
+                    title={'Educational Center "Specialist"'}
+                    subtitle={"Basics of programming with Java SE 1.8"}
+                    text={""}
+                />
+                <ResumeItem
+                    year={"2015"}
+                    title={"Coursera"}
+                    subtitle={"Fundamental English Writing"}
+                    text={"hosted by Mt. San Jacinto College"}
+                />
+                <ResumeItem
+                    year={"2015"}
+                    title={"Coursera"}
+                    subtitle={"Creating mobile apps for Android"}
+                    text={""}
+                />
+                <ResumeItem
+                    year={"2015"}
+                    title={"Codecademy"}
+                    subtitle={"Python for beginners"}
+                    text={""}
+                />
+                <ResumeItem
+                    year={"2013"}
+                    title={'Educational Center "Specialist"'}
+                    subtitle={"Basics of modelling and animation with 3DS MAX"}
+                    text={""}
+                />
+                <ResumeItem
+                    year={"2002"}
+                    title={"MATI-RGTU"}
+                    subtitle={"Basics of programming using Visual Basic"}
+                    text={""}
+                />
+            </InnerLayout>
         </ResumeStyled>
     );
 }

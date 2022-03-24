@@ -15,13 +15,11 @@ const ReviewsSection = () => {
                 <div className="reviews">
                     <ReviewItem
                         text={
-                            "Just made these cards for futures reviews, when they arrive! Пока здесь нет отзывов, так что эти карточки здесь просто чтобы круто выглядело."
+                            "Just made these cards for futures reviews, when they arrive!"
                         }
                     />
                     <ReviewItem
-                        text={
-                            "Но когда здесь появятся отзывы, они будут ааапупенными!"
-                        }
+                        text={"And when they do arrive, they'll be awesome!"}
                     />
                 </div>
             </InnerLayout>
