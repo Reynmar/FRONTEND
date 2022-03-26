@@ -29,7 +29,7 @@ const portfolios = [
         link1: "https://github.com/mpasichnyuk/react-alfa-test/tree/master",
         link2: "https://mpasichnyuk.github.io/react-alfa-test/",
         title: "API Fetch",
-        text: "small SPA made with React, that fetches data using API and shows in cards",
+        text: "small SPA made with React+Redux, fetches data using API and shows it in cards",
     },
     {
         id: 20,

@@ -19,8 +19,8 @@ const Resume = () => {
                 />
                 <ResumeItem
                     year={"2022"}
-                    title={"Contractor"}
-                    subtitle={"Frontend Developer"}
+                    title={"Dualboot Partners"}
+                    subtitle={"Frontend Developer / Frontend Engineer"}
                     text={
                         "Worked for DualBoot Partners and DebtBook company as a Frontend Developer, developed web applications using HTML, CSS, JavaScript, React and other tools"
                     }
@@ -92,7 +92,7 @@ const Resume = () => {
                     }
                     subtitle={"Economics"}
                     text={
-                        'Diploma of Specialist in "Accounting, Analisys and Audit'
+                        'Diploma of Specialist in "Accounting, Analisys and Audit" '
                     }
                 />
 
