@@ -13,13 +13,13 @@ const Skills = () => {
             <>
                 <div className="skills">
                     <ProgressBar title={"HTML5"} width={"70%"} text={"90%"} />
-                    <ProgressBar title={"CSS3"} width={"60%"} text={"80%"} />
+                    <ProgressBar title={"CSS3"} width={"66%"} text={"80%"} />
                     <ProgressBar
                         title={"JavaScript"}
                         width={"75%"}
                         text={"70%"}
                     />
-                    <ProgressBar title={"React"} width={"60%"} text={"70%"} />
+                    <ProgressBar title={"React"} width={"58%"} text={"70%"} />
                     <ProgressBar title={"Python"} width={"20%"} text={"20%"} />
                     <ProgressBar
                         title={"Data Science"}
