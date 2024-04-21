@@ -16,7 +16,7 @@ const Homepage = () => {
 
             <div className="typography">
                 <h1>
-                    Mikhail Pasichniuk <span> portfolio</span>
+                    Mikhail Pasichniuk 2021 <br/> <span> react portfolio</span>
                 </h1>
                 <p>
                     Hello! I am Mikhail Pasichniuk, aspiring Frontend,

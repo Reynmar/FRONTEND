@@ -21,16 +21,14 @@ const Imagesection = () => {
                 <div className="about-info">
                     <div className="info-title">
                         <p>Job field </p>
-                        <p>Age</p>
                         <p>Location</p>
                         <p>Languages</p>
                         <p>Job type</p>
                     </div>
                     <div className="info">
-                        <p>: Frontend Developer</p>
-                        <p>: 35</p>
+                        <p>: Full Stack Developer</p>
                         <p>: Charlotte, NC</p>
-                        <p>: English. Ukrainian. Russian. </p>
+                        <p>: English, Ukrainian, Russian </p>
                         <p>: Full-time, Part-time, Remote</p>
                     </div>
                 </div>

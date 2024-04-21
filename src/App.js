@@ -9,7 +9,7 @@ import ContactsPage from './pages/ContactsPage';
 import PortfolioPage from './pages/PortfolioPage';
 import ResumePage from './pages/ResumePage';
 import MenuIcon from '@mui/icons-material/Menu';
-import IconButton from '@mui/material/IconButton';
+import { IconButton } from '@mui/material';
 import CancelIcon from '@mui/icons-material/Cancel';
 import {useState} from 'react';
 import Contacts from './pages/Contacts'
